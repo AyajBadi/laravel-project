@@ -32,3 +32,7 @@ Route::get('/website',function(){
 Route::get('/featured',function(){
     return view('featured');
 });
+
+Route::get('/categories',function(){
+    return view('categories');
+});
